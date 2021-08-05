@@ -1,0 +1,89 @@
+body{
+    margin: 0 auto;
+}
+
+ul{    
+    padding-left: 25%;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+li::after{
+    content: "";
+    display: inline-block;
+    position: relative;
+    background-image: url(image/1_Сверстать-меню.jpg);
+    background-position-x: -4px;
+    height: 122px;
+    width: 750px;
+    vertical-align: bottom;
+}
+li[class^="content_menu"]{
+    height: 80px;
+}
+li.content2::after{
+    background-position-y: -79px;
+}
+li.content3::after{
+    background-position-y: -204px;
+}
+li.content4::after{
+    background-position-y: -326px;
+}
+li.content5::after{
+    background-position-y: -448px;
+}
+li.content_menu6::after{
+    background-position-y: -570px;
+}
+li.content7::after{
+    background-position-y: -670px;
+}
+li.content8::after{
+    background-position-y: -792px;
+}
+li.content9::after{
+    background-position-y: -914px;
+}
+li.content_menu10::after{
+    background-position-y: -1036px;
+}
+li.content11::after{
+    background-position-y: -1116px;
+}
+li.content12::after{
+    background-position-y: -1238px;
+}
+li.content13::after{
+    background-position-y: -1360px;
+}
+li.content_menu14::after{
+    background-position-y: -1482px;
+}
+li.content15::after{
+    background-position-y: -1562px;
+}
+li.content16::after{
+    background-position-y: -1684px;
+}
+li.content17::after{
+    background-position-y: -1806px;
+}
+li.content18::after{
+    background-position-y: -1928px;
+}
+li.content_menu19::after{
+    background-position-y: -2050px;
+}
+li.content20::after{
+    background-position-y: -2130px;
+}
+li.content21::after{
+    background-position-y: -2252px;
+}
+li.content22::after{
+    background-position-y: -2374px;
+}
+li.content23::after{
+    background-position-y: -2500px;
+}
